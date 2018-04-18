@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min_value = "hello"
   min_key = "hi"
-name_hash.each do |a, b|
+name_hash.collect do |a, b|
   if min_value = "hello"
     "#{a}" == min_key
     "#{b}" == min_value
