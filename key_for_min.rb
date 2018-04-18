@@ -8,7 +8,7 @@ name_hash.each do |key, value|
   if min_value == "hello"
     min_key = key
     min_value = value
-  elsif "#{value}" < min_value
+  elsif value < min_value
     min_value = value
     min_key = key
   end
