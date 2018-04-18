@@ -4,13 +4,13 @@
 def key_for_min_value(name_hash)
   min_value = "hello"
   min_key = "hi"
-name_hash.each do |key, value|
+name_hash.each do |a, b|
   if min_value = "hello"
-    "#{key}" == min_key
-    "#{value}" == min_value
-  elsif "#{value}" < min_value
-    "#{value}" == min_value
-    "#{key}" == min_key
+    "#{a}" == min_key
+    "#{b}" == min_value
+  elsif "#{b}" < min_value
+    "#{b}" == min_value
+    "#{a}" == min_key
   end
 end
 return key
