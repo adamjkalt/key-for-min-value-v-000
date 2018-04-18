@@ -13,5 +13,4 @@ name_hash.each do |key, value|
     "#{key}" == min_key
   end
 end
-return key
 end
